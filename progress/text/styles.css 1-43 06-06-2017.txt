@@ -1,0 +1,92 @@
+body {
+	background-color: #ffffff;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a:not(.img) {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	transition-duration: 0.2s;
+}
+
+img {
+	padding: 0px 0 px;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #4caf50;
+}
+
+hr {
+	background-color: #4caf50;
+	height: 1px;
+}
+h1 {
+	color: #4caf50;
+	text-align: right;
+	font-size: 20px;
+	font-family: 'Corben', Georgia, Times, serif;
+}
+
+h2 {
+	color: #4caf50;
+	text-align: right;
+	font-size: 10px;
+	font-family: 'Corben', Georgia, Times, serif;
+}
+
+button {
+	background-color: #4caf50;
+	border: none;
+	color: #ffffff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.2s;
+	border: 2px solid #4caf50;
+}
+
+button span {
+	cursor: pointer;
+	display: inline block;
+	position: relative;
+	transition: 0.5s
+}
+
+button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+}
+
+button:hover {
+	background-color: white;
+	color: #4caf50;
+}
+
+button:hover span {
+	padding-right: 25px;
+}
+
+button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
